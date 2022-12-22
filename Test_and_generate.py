@@ -22,7 +22,7 @@ def get_and_increment_chpt_num(filename="chpt.txt"):
         return val
 
 PARAMS = {
-    'change': 'Cifar 10mm. Test_and_generate.py. Load and test then generate 100 images. Batch size 8',
+    'change': '',
 
     'dir': '200x200-10mm-cifar10-2', 'num_channels': 3, 'raw_input_shape': (180,240), 'target_input_shape': (32,32),
     # 'dir': '200x200-10mm-cifar10-2', 'num_channels': 3, 'raw_input_shape': (240,320), 'target_input_shape': (200,200),
