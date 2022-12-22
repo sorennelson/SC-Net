@@ -23,7 +23,7 @@ def get_and_increment_chpt_num(filename="chpt.txt"):
         return val
 
 PARAMS = {
-    'change': 'Cifar 10mm. F = GAN + 100(MAE + 1(Forward + 0.1*Backward)). G = GAN + 100(MAE + 1(Forward + 0.1*Backward)). Save models. Training=True, Batch Norm. Train-5.py. 3200 shuffle buffer size and 16 batch size. without non local - normal patchgan (*with* dropout). normalize 255',
+    'change': '',
 
     # 'dir': 'hamrick', 'num_channels': 3, 'raw_input_shape': (64,64), 'target_input_shape': (64,64),
     # 'dir': '200x200-10mm-cifar10-2', 'num_channels': 3, 'raw_input_shape': (180,240), 'target_input_shape': (32,32),
@@ -36,7 +36,7 @@ PARAMS = {
     # 'dir': 'combined-lensless-cifar', 'num_channels': 3, 'raw_input_shape': (180,240), 'target_input_shape': (32,32),
     # 'dir': 'imagenet', 'num_channels': 3, 'raw_input_shape': (240,320), 'target_input_shape': (224,224),
     # 'dir': 'imagenet', 'num_channels': 3, 'raw_input_shape': (180,240), 'target_input_shape': (224,224),
-    'dir': 'imagenet', 'num_channels': 3, 'raw_input_shape': (180,240), 'target_input_shape': (32,32),
+    # 'dir': 'imagenet', 'num_channels': 3, 'raw_input_shape': (180,240), 'target_input_shape': (32,32),
 
     'generator': cycle_reconstructor,
     'rec_loss': dist_mae_loss, # dist_mae_loss,
